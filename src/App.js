@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route  } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
 import Inbox from "./pages/Inbox";
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Sidebar />
       <Routes>
         <Route path="/" exact element={<Inbox/>} />
         <Route path="about" element={<About/>} />
