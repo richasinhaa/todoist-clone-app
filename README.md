@@ -6,3 +6,4 @@
 5. Run the command “npm start” to start the development server.
 6. The Hosted app can be viewed in the browser by going to the URL - http://localhost:3000/
 7. All the images needed for development are provided under the public directory.	
+8. Once the setup is complete, you can now start the development process.
